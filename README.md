@@ -69,7 +69,7 @@ Please use the same value for the `resource_group` parameter that you have used 
 
 ### 5. Modify the code (Optional)
 
-Now you can start modifying the code in the <a href="/code">`code`</a> foleder, so that your model and not the provided sample model gets trained on Azure.Where required, modify the environment yaml so that the training and deployment environments will have the correct packages installed in the conda environment for your training and deployment.
+Now you can start modifying the code in the <a href="/code">`code`</a> folder, so that your model and not the provided sample model gets trained on Azure.Where required, modify the environment yaml so that the training and deployment environments will have the correct packages installed in the conda environment for your training and deployment.
 Upon pushing the changes, actions will kick off your training and deployment run. Check the actions tab to view if your actions have successfully run.
 
 Comment lines 39 to 55 in your <a href="/.github/workflows/train_deploy.yml">`"/.github/workflows/train_deploy.yml"`</a> file if you only want to train the model. Uncomment line 7 to 8, if you only want to kick off the workflow when pushing changes to the `"/code/"` file.
